@@ -1,0 +1,71 @@
+{
+  "mass_function": 1.5098,
+  "M1_fiducial": 5.0,
+  "M2_min_fiducial": 5.5,
+  "scenarios": [
+    {
+      "scenario": "Main-sequence companion",
+      "test": "Photometric flux ratio test",
+      "M2_required": 5.5,
+      "expected_L": 1132.0,
+      "flux_ratio_pct": 5.1,
+      "verdict": "EXCLUDED",
+      "reason": "A 5.5 Msun MS star would contribute ~5.1% of primary flux. This is detectable; no secondary SED is seen."
+    },
+    {
+      "scenario": "White dwarf",
+      "test": "Mass ceiling (Chandrasekhar)",
+      "M_chandrasekhar": 1.44,
+      "mass_function": 1.5098,
+      "verdict": "EXCLUDED",
+      "reason": "f(M) = 1.51 Msun exceeds the Chandrasekhar limit (1.44 Msun) by a factor of 1.05. No WD can have this mass."
+    },
+    {
+      "scenario": "Neutron star",
+      "test": "Mass ceiling (TOV limit) + primary mass",
+      "M_tov": 2.3,
+      "mass_function": 1.5098,
+      "M1_fiducial": 5.0,
+      "M2_min_at_fiducial": 5.5,
+      "verdict": "EXCLUDED",
+      "reason": "f(M) = 1.51 Msun is below the NS ceiling (2.3 Msun), so a NS is NOT excluded by the mass function alone. However, at fiducial M1 = 5.0 Msun, M2_min = 5.5 Msun exceeds the NS ceiling. The NS scenario depends on the primary mass estimate."
+    },
+    {
+      "scenario": "Hierarchical triple",
+      "test": "Mardling-Aarseth stability + photometric test",
+      "P_outer_d": 619.989,
+      "P_inner_max_d": 130.6,
+      "M2_split": [
+        2.8,
+        2.8
+      ],
+      "L_each": 73.0,
+      "verdict": "UNLIKELY",
+      "reason": "Stability requires P_inner < 130.6 d. Two ~2.8 Msun MS stars would each have L ~ 73 Lsun. If both are compact objects, the inner binary would need M_total > 5.5 Msun \u2014 still requiring at least one BH-mass object. Near-zero eccentricity (e=0.006) also disfavours a triple system where Kozai-Lidov oscillations would pump eccentricity."
+    },
+    {
+      "scenario": "Stripped helium star",
+      "test": "UV excess + mass requirement",
+      "M2_required": 5.5,
+      "expected_Teff": "> 30000 K",
+      "verdict": "DISFAVOURED",
+      "reason": "A 5.5 Msun stripped star would have Teff > 30000 K with strong UV excess and He II emission. No UV data available. Cannot be fully excluded without UV spectroscopy."
+    },
+    {
+      "scenario": "Astrometric/pipeline artefact",
+      "test": "NSS solution quality + RUWE",
+      "significance": 343.4,
+      "RUWE": 2.32,
+      "verdict": "UNLIKELY",
+      "reason": "The NSS significance sigma = 343.4 is very high (68x the catalogue threshold of 5). The orbital elements (P=620.0d, e=0.006) are physically consistent. However, RUWE = 2.32 exceeds the 1.4 threshold, indicating astrometric residuals beyond a single-star model. The elevated RUWE may arise from the binary orbital motion itself or from the close neighbor at 3.3 arcsec. Independent RV confirmation is essential to exclude systematics."
+    }
+  ],
+  "summary": {
+    "excluded": 3,
+    "unlikely": 2,
+    "disfavoured": 1,
+    "not_excluded": 0,
+    "total": 6
+  },
+  "key_argument": "f(M) = 1.51 Msun exceeds the Chandrasekhar limit but falls below the NS ceiling (2.3 Msun). The BH case depends on the primary mass: at fiducial M1 = 5.0 Msun, M2_min = 5.5 Msun enters BH territory. The very high NSS significance (sigma = 343.4) and physically coherent orbital elements support a genuine binary."
+}

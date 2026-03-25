@@ -1,0 +1,100 @@
+{
+  "target": {
+    "name": "HD 159254",
+    "gaia_source_id": 4061400381769067392,
+    "simbad_type": "SB*",
+    "B_mag": 9.51
+  },
+  "gaia_astrometry": {
+    "ra_deg": 263.6929,
+    "dec_deg": -26.7397,
+    "l_deg": 0.59,
+    "b_deg": 3.2,
+    "parallax_mas": 0.3958,
+    "parallax_error_mas": 0.091,
+    "distance_pc": 2527,
+    "pmra_mas_yr": null,
+    "pmdec_mas_yr": null,
+    "ruwe": 2.32
+  },
+  "gaia_photometry": {
+    "G": 7.92,
+    "BP": 8.66,
+    "RP": 7.05,
+    "BP_RP": 1.616,
+    "G_err": 0.003,
+    "BP_err": 0.003,
+    "RP_err": 0.004
+  },
+  "gaia_gspphot": {
+    "teff_K": null,
+    "logg": null,
+    "note": "No GSP-Phot parameters available for this source"
+  },
+  "nss_orbital": {
+    "solution_type": "SB1",
+    "period_d": 619.989,
+    "period_err_d": 1.449,
+    "eccentricity": 0.00565,
+    "eccentricity_err": 0.00615,
+    "K1_km_s": 28.623,
+    "K1_err_km_s": 0.083,
+    "significance": 343.4,
+    "goodness_of_fit": 1.62,
+    "rv_template_teff_K": null
+  },
+  "gaia_rv": {
+    "rv_km_s": -13.02,
+    "rv_err_km_s": 9.58
+  },
+  "twomass": {
+    "J": 5.83,
+    "J_err": 0.02,
+    "H": 5.37,
+    "H_err": 0.04,
+    "Ks": 5.15,
+    "Ks_err": 0.02,
+    "note": "Close neighbor at 3.3 arcsec may cause partial blending"
+  },
+  "allwise": {
+    "W1": 4.3,
+    "W1_err": 0.12,
+    "W2": 4.49,
+    "W2_err": 0.07,
+    "W3": 5.04,
+    "W3_err": 0.01,
+    "W4": 4.96,
+    "W4_err": 0.03,
+    "note": "W1/W2 errors elevated (partial saturation at G=7.9)"
+  },
+  "close_neighbor": {
+    "n_within_5arcsec": 1,
+    "closest_arcsec": 3.33,
+    "note": "Single Gaia source at 3.33 arcsec; too wide for 620d orbit"
+  },
+  "spectroscopic_surveys": {
+    "RAVE": "No match",
+    "LAMOST": "No match",
+    "GALAH": "No match",
+    "APOGEE": "No match",
+    "note": "No independent spectroscopy available"
+  },
+  "xray": {
+    "ROSAT": "Not queried",
+    "XMM": "Not queried",
+    "note": "X-ray constraints not yet obtained"
+  },
+  "variability": {
+    "gaia_var_flag": false,
+    "asassn_match": false,
+    "ztf_match": false,
+    "vsx_match": false,
+    "eb_flag": false,
+    "note": "No variability detected in any survey"
+  },
+  "derived": {
+    "mass_function_Msun": 1.5098,
+    "distance_modulus": 12.01,
+    "note_fM": "f(M) = 1.5098 Msun. Exceeds Chandrasekhar limit (1.44 Msun) but falls below the conservative NS ceiling (3.0 Msun). The BH case therefore depends on the primary mass M1 estimate."
+  }
+}

@@ -1,0 +1,28 @@
+Property,Value,Uncertainty,Source
+Name,HD 159254,,SIMBAD
+Gaia source_id,4061400381769067392,,Gaia DR3
+RA (J2016.0),263.6929 deg,,Gaia DR3
+Dec (J2016.0),-26.7397 deg,,Gaia DR3
+l,0.59 deg,,Gaia DR3
+b,+3.20 deg,,Gaia DR3
+Parallax,0.396 mas,0.091,Gaia DR3
+Distance,2527 pc,,1/parallax
+G,7.92 mag,0.003,Gaia DR3
+BP,8.66 mag,0.003,Gaia DR3
+RP,7.05 mag,0.004,Gaia DR3
+BP-RP,1.616 mag,,Gaia DR3
+B,9.51 mag,,SIMBAD
+RUWE,2.32,,Gaia DR3
+Period,619.989 d,1.449,Gaia NSS
+Eccentricity,0.006,0.006,Gaia NSS
+K1,28.623 km/s,0.083,Gaia NSS
+Significance,343.4,,Gaia NSS
+GoF,1.62,,Gaia NSS
+RV,-13.02 km/s,9.58,Gaia DR3
+J,5.83 mag,0.02,2MASS
+H,5.37 mag,0.04,2MASS
+Ks,5.15 mag,0.02,2MASS
+W1,4.30 mag,0.12,AllWISE
+W2,4.49 mag,0.07,AllWISE
+W3,5.04 mag,0.01,AllWISE
+W4,4.96 mag,0.03,AllWISE

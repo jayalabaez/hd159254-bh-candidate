@@ -1,0 +1,142 @@
+[
+  {
+    "label": "BH > 3 Msun, M1=2.0+/-1.0 (cool giant)",
+    "BH_threshold": 3.0,
+    "M1": 2.0,
+    "M1_sigma": 1.0,
+    "P_BH": 93.7,
+    "P_NS": 6.3,
+    "P_massgap": 0.0,
+    "M2_median": 4.9,
+    "M2_68ci": [
+      3.4,
+      12.6
+    ]
+  },
+  {
+    "label": "BH > 5 Msun, M1=2.0+/-1.0 (cool giant)",
+    "BH_threshold": 5.0,
+    "M1": 2.0,
+    "M1_sigma": 1.0,
+    "P_BH": 47.8,
+    "P_NS": 6.3,
+    "P_massgap": 45.8,
+    "M2_median": 4.9,
+    "M2_68ci": [
+      3.4,
+      12.6
+    ]
+  },
+  {
+    "label": "BH > 3 Msun, M1=3.0+/-1.5 (moderate giant)",
+    "BH_threshold": 3.0,
+    "M1": 3.0,
+    "M1_sigma": 1.5,
+    "P_BH": 98.5,
+    "P_NS": 1.5,
+    "P_massgap": 0.0,
+    "M2_median": 5.7,
+    "M2_68ci": [
+      4.0,
+      13.9
+    ]
+  },
+  {
+    "label": "BH > 5 Msun, M1=3.0+/-1.5 (moderate giant)",
+    "BH_threshold": 5.0,
+    "M1": 3.0,
+    "M1_sigma": 1.5,
+    "P_BH": 61.9,
+    "P_NS": 1.5,
+    "P_massgap": 36.5,
+    "M2_median": 5.7,
+    "M2_68ci": [
+      4.0,
+      13.9
+    ]
+  },
+  {
+    "label": "BH > 3 Msun, M1=5.0+/-3.0 (fiducial)",
+    "BH_threshold": 3.0,
+    "M1": 5.0,
+    "M1_sigma": 3.0,
+    "P_BH": 99.5,
+    "P_NS": 0.5,
+    "P_massgap": 0.0,
+    "M2_median": 7.1,
+    "M2_68ci": [
+      4.7,
+      16.3
+    ]
+  },
+  {
+    "label": "BH > 5 Msun, M1=5.0+/-3.0 (fiducial)",
+    "BH_threshold": 5.0,
+    "M1": 5.0,
+    "M1_sigma": 3.0,
+    "P_BH": 79.6,
+    "P_NS": 0.5,
+    "P_massgap": 19.9,
+    "M2_median": 7.1,
+    "M2_68ci": [
+      4.7,
+      16.3
+    ]
+  },
+  {
+    "label": "BH > 5 Msun, M1=8.0+/-3.0 (luminous star)",
+    "BH_threshold": 5.0,
+    "M1": 8.0,
+    "M1_sigma": 3.0,
+    "P_BH": 98.5,
+    "P_NS": 0.0,
+    "P_massgap": 1.5,
+    "M2_median": 8.9,
+    "M2_68ci": [
+      6.5,
+      19.1
+    ]
+  },
+  {
+    "label": "BH > 5 Msun, M1=12.0+/-4.0 (B supergiant)",
+    "BH_threshold": 5.0,
+    "M1": 12.0,
+    "M1_sigma": 4.0,
+    "P_BH": 100.0,
+    "P_NS": 0.0,
+    "P_massgap": 0.0,
+    "M2_median": 10.9,
+    "M2_68ci": [
+      8.2,
+      22.4
+    ]
+  },
+  {
+    "label": "BH > 5 Msun, M1=15.0+/-5.0 (pipeline est.)",
+    "BH_threshold": 5.0,
+    "M1": 15.0,
+    "M1_sigma": 5.0,
+    "P_BH": 100.0,
+    "P_NS": 0.0,
+    "P_massgap": 0.0,
+    "M2_median": 12.3,
+    "M2_68ci": [
+      9.2,
+      24.6
+    ]
+  },
+  {
+    "label": "BH > 5 Msun, M1=1.0+/-0.5 (extreme low)",
+    "BH_threshold": 5.0,
+    "M1": 1.0,
+    "M1_sigma": 0.5,
+    "P_BH": 34.9,
+    "P_NS": 27.1,
+    "P_massgap": 37.9,
+    "M2_median": 3.8,
+    "M2_68ci": [
+      2.7,
+      11.1
+    ]
+  }
+]

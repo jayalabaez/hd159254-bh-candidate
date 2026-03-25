@@ -1,0 +1,33 @@
+{
+  "mass_function_msun": 1.5098,
+  "M1_best": 5.0,
+  "M1_sigma": 3.0,
+  "M2_min_fiducial": 5.5,
+  "M2_absolute_floor": 1.51,
+  "MC_draws": 200000,
+  "MC_valid": 199568,
+  "M2_median": 7.1,
+  "M2_68ci": [
+    4.71,
+    16.2
+  ],
+  "M2_90ci": [
+    3.83,
+    55.55
+  ],
+  "P_above_NS_percent": 99.5,
+  "P_BH_percent": 79.5,
+  "P_massgap_percent": 20.0,
+  "P_NS_percent": 0.5,
+  "M2_min_table": {
+    "0.5": 2.25,
+    "1.0": 2.79,
+    "2.0": 3.63,
+    "3.0": 4.33,
+    "5.0": 5.5,
+    "7.0": 6.51,
+    "10.0": 7.83,
+    "15.0": 9.74,
+    "20.0": 11.42
+  }
+}
