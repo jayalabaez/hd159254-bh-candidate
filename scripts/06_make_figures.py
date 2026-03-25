@@ -168,7 +168,7 @@ def fig_checklist():
     y_step = 0.082
     box_height = 0.060
 
-    ax.text(0.5, 0.97, 'HD 159254 — BH Candidacy Assessment',
+    ax.text(0.5, 0.97, 'HD 159254 — Dark-Companion Candidacy Assessment',
             fontsize=16, fontweight='bold', ha='center', va='top',
             transform=ax.transAxes)
 
@@ -197,8 +197,8 @@ def fig_checklist():
     n_pass = sum(1 for _, p, _ in checks if p)
     ax.text(0.5, 0.06,
             f'Score: {n_pass}/{n} criteria satisfied\n'
-            f'Verdict: Strong BH candidate pending spectroscopic follow-up\n'
-            f'Key limitation: f(M) < NS ceiling; BH depends on M$_1$ estimate',
+            f'Verdict: Promising dark-companion candidate\n'
+            f'Classification (mass-gap vs BH) depends on spectroscopic M$_1$',
             fontsize=10, ha='center', va='center',
             transform=ax.transAxes,
             bbox=dict(boxstyle='round,pad=0.5', fc='lightyellow',
